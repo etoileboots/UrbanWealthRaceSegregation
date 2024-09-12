@@ -1,2 +1,9 @@
-# UrbanWealthRaceSegregation
-Implementation of augmented Schelling Model for urban wealth and race segregation integrating agent-based modeling and cellular automata (for C166 final project).  
+
+## TLDR: Implementation of augmented Schelling Model for urban wealth and race segregation integrating agent-based modeling and cellular automata (for C166 final project).  
+
+## Abstract
+This project extends Schelling's model of urban segregation to incorporate housing value dynamics and wealth distribution over time. While Schelling's original model explains how individual racial preferences can lead to population segregation, it oversimplifies urban migration by neglecting economic factors. This project integrates housing and homeowner wealth information into an Agent-Based Model (ABM) to explore how racial preferences and economic variables interact to shape urban segregation. Key parameters in the model include racial preference intensity, land value diffusion, and wealth disparities. The simulation operates on a grid where each cell represents a home with attributes like land value and the owner's wealth and race. Homeowners can move based on utility thresholds influenced by their racial and economic preferences, and home values are adjusted through diffusion mechanisms reflecting neighborhood wealth. Through simulations, the model investigates how racial preferences influence wealth distribution and segregation. It finds that moderate racial preferences often lead to the greatest segregation, while extreme preferences result in less stability. These outcomes suggest that racial and economic dynamics reinforce one another, with wealthier racial groups tending to cluster in prosperous areas. The results are compared against theoretical predictions, confirming the model's validity. The findings offer insights for urban policymakers, emphasizing the need for strategies that balance economic integration and mitigate segregation by fostering affordability and cross-racial engagement in urban environments.
+
+## Example Visualizations
+<img width="650" alt="Screenshot 2024-09-12 at 13 14 13" src="https://github.com/user-attachments/assets/c2bc6ae8-fd5b-4558-9203-9d24f0378cc0">
+<img width="650" alt="Screenshot 2024-09-12 at 13 14 20" src="https://github.com/user-attachments/assets/7e94d3cc-f47e-4f8d-9e26-5436545a4f9d">
